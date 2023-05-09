@@ -1,0 +1,15 @@
+{
+    "primaryColor": {
+        "color": "#682448",
+        "OnColor": "#2C0F1F"
+    },
+    "secondaryColor":{
+        "color": "#9D9D9D",
+        "OnColor":"#2C0F1F"
+    },
+    "FooterTextColor": "#6D5862",
+    "LinksColor": {
+        "color": "#FFFFFF",
+        "OnColor": "#573246"
+    }
+}
