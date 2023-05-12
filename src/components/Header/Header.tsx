@@ -10,7 +10,9 @@ const Header: FC = () => {
   };
   return (
     <S.Container showNavBar={showNavBar}>
+      <S.Logo>
       <Logo />
+      </S.Logo>
       <Navbar showNavBar={showNavBar} />
       <S.HideManue>
         <S.HamburgerManue onClick={handleNavebar}>

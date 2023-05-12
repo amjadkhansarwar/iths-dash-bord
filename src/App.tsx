@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 
 function App() {
+  const city = "Stockholm,SE"
   return (
     <S.Container>
       <Router>
@@ -17,8 +18,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/clock" element={<Clock />} />
-            <Route path="/weather" element={<Weather />} />
-            <Route path="/traffic" element={<Traffic />} />
+            <Route path="/weather" element={<Weather city={city}/>} />
+            <Route path="/traffic" element={<Traffic siteId="9192" timewindow={20}/>} />
             <Route path="/*" element={<h1>Page not Found</h1>} />
           </Routes>
         </S.Body>

@@ -4,13 +4,12 @@ import theme from '../../theme'
 export const Container = styled.div`
 display: flex;
 flex-direction: row;
-flex: 1;
 justify-content: flex-start;
 height: 60px;
 width: 100%;
 background-color: ${theme.primaryColor.OnColor}
 `
-export const FooterText = styled.text`
+export const FooterText = styled.p`
 font-family: ${theme.fonts.title};
 font-weight: 500;
 font-size: 14px;

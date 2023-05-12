@@ -8,8 +8,8 @@ const Home:FC = () => {
   return (
     <S.Body>
       <Clock />
-      <Weather />
-      <Traffic />
+      <Weather city="Stockholm,SE"/>
+      <Traffic siteId="9192" timewindow={20} />
     </S.Body>
   )
 }

@@ -5,17 +5,16 @@ interface SHOWNAV {
 }
 export const Container = styled.div<SHOWNAV>`
   width: 100%;
+  min-height: 90px;
   align-self: center;
   align-items: center;
   ${({ showNavBar }) => showNavBar !== true && "display: flex"};
   flex-direction: row;
   justify-content: space-between;
-  padding: 16px 0px 16px 32px;
   background-color: ${theme.primaryColor.color};
   @media screen and (max-width: 768) {
     display: flex;
     flex-direction: column;
-    height: auto;
   }
 `;
 export const Logo = styled.div`
@@ -45,6 +44,7 @@ export const HamburgerManue = styled.a`
   height: 22px;
   @media screen and (max-width: 768px) {
     display: flex;
+    top: 32px;
   }
 `;
 export const SpanBar = styled.span`
