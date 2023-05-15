@@ -3,8 +3,9 @@ import fonts from "./fonts";
 
 const Height = window.innerHeight;
 
- export const Container = styled.div`
+export const Container = styled.div`
   display: flex;
+  overflow-y: scroll;
   flex-direction: column;
   align-items: center;
   height: ${Height - 180}px;
@@ -17,16 +18,15 @@ const Height = window.innerHeight;
     height: auto;
   }
 `;
- export const Heading = styled.p`
+export const Heading = styled.p`
   font-family: ${fonts.headline.bold};
   font-size: 22px;
   font-weight: 800;
-  padding: 16px;
+  padding: 8px;
   @media screen and (max-width: 1000px) {
     font-family: ${fonts.headline.medium};
     font-size: 18px;
     font-weight: 600;
-    padding: 8px;
+    padding: 4px;
   }
 `;
-

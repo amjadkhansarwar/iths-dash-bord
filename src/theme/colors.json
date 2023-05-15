@@ -11,5 +11,7 @@
     "LinksColor": {
         "color": "#FFFFFF",
         "OnColor": "#573246"
-    }
+    },
+    "BalckColor": "#000000"
+    
 }

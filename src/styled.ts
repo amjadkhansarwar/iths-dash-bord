@@ -22,3 +22,9 @@ export const Body = styled.div`
     flex-direction: column;
   }
 `;
+export const Mode = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-self: center;
+`;

@@ -12,7 +12,7 @@ this.addEventListener("install", (event)=>{
                 "/",
                 "/favicon.ico",
                 "/clock",
-                "/trffic",
+                "/contry",
                 "/weather"
             ])
         })

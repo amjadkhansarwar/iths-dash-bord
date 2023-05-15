@@ -1,17 +1,23 @@
-import React, {FC} from 'react';
-import Clock from '../components/Clock';
-import Weather from '../components/Weather';
-import Traffic from '../components/Traffic';
-import * as S from '../styled'
+import React, { FC } from "react";
+import Clock from "../components/Clock";
+import Weather from "../components/Weather";
+import CountryInfo from "../components/CountryInfo";
+import * as S from "../styled";
+import Mode from "../components/Mode";
 
-const Home:FC = () => {
+const Home: FC = () => {
   return (
-    <S.Body>
+    <S.Container>
+      <S.Mode>
+        <Mode />
+      </S.Mode>
+      <S.Body>
       <Clock />
-      <Weather city="Stockholm,SE"/>
-      <Traffic siteId="9192" timewindow={20} />
-    </S.Body>
-  )
-}
+      <Weather city="Stockholm,SE" />
+      <CountryInfo />
+      </S.Body>
+    </S.Container>
+  );
+};
 
 export default Home;

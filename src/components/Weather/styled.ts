@@ -17,13 +17,10 @@ export const Element = styled.div`
 `;
 export const Text = styled.p`
   font-family: ${theme.fonts.headline.bold};
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  padding: 16px;
   @media screen and (max-width: 1000px) {
     font-family: ${theme.fonts.headline.medium};
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
-    padding: 8px;
-  }
-`;
+  }`;

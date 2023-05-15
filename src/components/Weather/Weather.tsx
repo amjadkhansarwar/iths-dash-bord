@@ -1,7 +1,6 @@
 import React, { FC, useEffect, useState } from "react";
 import * as S from "./styled";
 import * as T from "../../theme/typography";
-import * as API from "../../api/api";
 interface Props {
   city: string;
 }
@@ -107,7 +106,7 @@ const Weather: FC<Props> = ({ city }) => {
     
       }
         <S.Element>
-          <S.Text>{`${weatherTemperature}°C`}</S.Text>
+          <S.Text> Temperature: {`${weatherTemperature}°C`}</S.Text>
         </S.Element>
         <S.Element>
           <S.Text>Wind Speed: {windSpeed} m/s</S.Text>
