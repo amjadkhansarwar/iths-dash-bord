@@ -1,7 +1,7 @@
 import React, { FC, useState, useEffect } from "react";
 import Clock from "../components/Clock";
 import Weather from "../components/Weather";
-import CountryInfo from "../components/Traffic";
+import CountryInfo from "../components/CountryInfo";
 import * as S from "../styled";
 
 const Home: FC = () => {
