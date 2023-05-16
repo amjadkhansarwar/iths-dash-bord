@@ -15,11 +15,13 @@ export const Container = styled.div<SHOWNAV>`
   @media screen and (max-width: 768) {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
   }
 `;
 export const Logo = styled.div`
   align-self: center;
   padding-left: 32px;
+  margin-top: 16px;
 `;
 export const Manue = styled.div`
   display: flex;

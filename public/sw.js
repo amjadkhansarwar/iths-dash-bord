@@ -1,4 +1,3 @@
-console.log('service worker from Public folder')
 
 const cacheData = "iths"
 
